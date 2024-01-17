@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(66, 105, 211);
+}
+
+.container{
+    width: 500px;
+    height: 600px;
+    /* border: 2px solid rgb(181, 18, 18); */
+    background-color: white;
+    border-radius: 3%;
+    margin: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* box-shadow: 4px 4px 4px 4px rgb(222, 209, 67); */
+}
+
+h1{
+    color: rgb(66, 105, 211);
+}
+
+button{
+    width: 200px;
+    height: 80px;
+    cursor: pointer;
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+    background-color: rgb(66, 105, 211);
+    border-radius: 7%;
+    /* border: 1px solid rgb(160, 8, 8); */
+    /* box-shadow: 4px 4px 4px 4px rgb(222, 209, 67); */
+}
+
+.quote{
+    /* background-color: rgb(179, 132, 226); */
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: cursive;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.author{
+    /* background-color: rgb(179, 132, 226); */
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: cursive;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  
+}
